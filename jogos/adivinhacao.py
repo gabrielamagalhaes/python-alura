@@ -33,8 +33,8 @@ def jogar():
             continue
 
         acertou = chute == numero_secreto
-        maior   = chute > numero_secreto
-        menor   = chute < numero_secreto
+        maior   = chute  > numero_secreto
+        menor   = chute  < numero_secreto
 
         if(acertou):
             print("Você acertou e fez {} pontos!".format(pontos))
